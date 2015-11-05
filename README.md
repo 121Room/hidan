@@ -1,6 +1,6 @@
 # hidan
 
-[![Build Status](https://travis-ci.org/121Room/single.svg?branch=master)](https://travis-ci.org/121Room/single)
+[![Build Status](https://travis-ci.org/121Room/hidan.svg?branch=master)](https://travis-ci.org/121Room/hidan)
 
 ## Usage
 
