@@ -4,3 +4,5 @@ node_js:
 
 notifications:
   email: false
+  webhooks:
+    - https://jianliao.com/v2/services/webhook/b28508c2067ca66e5e2b6c934703f5318bd2a7f2
