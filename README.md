@@ -7,7 +7,6 @@
 run
 
 * `npm install`
-* `webpack --watch`
 * `DEBUG=hidan:* npm start`
 
 open <http://localhost:4567/>
