@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm test && nodemon ./bin/www",
-    "test": "gulp lint && webpack && mocha"
+    "test": "gulp lint && mocha"
   },
   "dependencies": {
     "body-parser": "~1.13.2",

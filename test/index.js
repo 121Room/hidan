@@ -6,11 +6,12 @@ let assert = require('chai').assert
 
 let app = require('../app')
 
-describe('get /', function() {
-  it('should success', function(done) {
-    request(app)
-      .get('/')
-      .expect(200)
-      .end(done)
-  })
-})
+// describe('post /report', function() {
+//   it('should success', function(done) {
+    //TODO add test
+    // request(app)
+    //   .get('/')
+    //   .expect(200)
+    //   .end(done)
+//   })
+// })
