@@ -8,6 +8,11 @@ let bodyParser = require('body-parser')
 
 let app = express()
 let cors = require('cors')
+
+// view engine setup
+app.set('views', path.join(__dirname, 'views'))
+app.set('view engine', 'hbs')
+
 app.use(cors())
 
 
@@ -16,6 +21,16 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser())
 
+// app.get('/', (req, res) => {
+//   res.render('index', {
+//     title: 'phantmoas'
+//   })
+// })
+app.get('/', function (req, res) {
+  res.render('index', {
+    title: 'phantmoas'
+  })
+})
 app.post('/report', (req, res, next) => {
   console.log(req.body) // TODO save to db
   res.send(req.body)
